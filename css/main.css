@@ -1,0 +1,34 @@
+html,body,.wrap { width: 100%; margin: 0px; padding: 0px;}
+
+.no-pd { padding: 0px!important; background-color: #000;}
+.content { margin: 20px auto 50px;}
+label.contra-flow {text-align: left!important;}
+textarea {min-height: 275px!important;}
+.title { margin-bottom: 35px; margin-left: 15px;}
+#banner_text { padding: 15px 0px 25px 0px; margin-left: 20px; margin-right: 15px; color: #FFF; box-sizing: border-box;}
+@media (min-width: 768px) {
+	#banner_text { margin-left: 20px; }
+	.sub_banner { width: 750px; }
+	.sub_banner > .row { margin-left: 0px; }
+}
+@media (min-width: 992px) {
+	#banner_text { margin-left: 60px; }
+	.sub_banner { width: 970px; }
+	.sub_banner > .row { margin-left: 0px; }
+}
+@media (min-width: 1200px) {
+	#banner_text { margin-left: 95px; }
+	.sub_banner { width: 1170px; }
+	.sub_banner > .row { margin-left: -35px; }
+}
+
+/* SERVIÇOS PAGE  */
+
+.sub_banner { background-image:url(../images/legal_bg.jpg); background-repeat: repeat; position: relative; min-width: 100%; margin-top: 110px; margin-right: auto; margin-left: auto; margin-bottom: 60px; padding: 15px; margin-bottom: 50px; }
+.sub_banner > .row { margin-left: 0px; }
+#less_bottom { margin-bottom: -40px; }
+
+/* FLEXIBLE MAP*/
+.Flexible-container { position: relative; padding-bottom: 56.25%; padding-top: 60px; margin-bottom: 50px; height: 0; overflow: hidden;}
+.Flexible-container iframe,.Flexible-container object,.Flexible-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+000
